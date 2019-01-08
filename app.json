@@ -1,21 +1,5 @@
 {
-  "name": "webview",
-  "scripts": {
-  },
-  "env": {
-  },
-  "formation": {
-    "web": {
-      "quantity": 1
-    }
-  },
-  "addons": [
-
-  ],
-  "stack": "heroku-18",
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    }
-  ]
+  "name": "Start on Heroku: Java",
+  "description": "A barebones Java app, which can easily be deployed to Heroku.",
+  "addons": [ "heroku-postgresql" ]
 }
